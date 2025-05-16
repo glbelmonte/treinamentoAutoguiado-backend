@@ -1,0 +1,3 @@
+id,email,password,role,is_deleted,nome,cpf,created_at,is_first_access
+1000,user1@example.com,$2a$10$BcOnSsBbP1YlvW8eGkOBHeb.Xh3iVcTODr/H.4p47NJ9wby3Zw4U.,USER,False,Thiago Costa Barbosa,95825512080,2024-01-01 12:00:00,True
+1001,admin@example.com,$2a$10$r4SWqnO8iW94OD20w0g4xOBmvSq8E5V8fiShVCeq2cHN7vqxxXrKu,ADMIN,False,Administrador,32189828040,2024-01-01 12:00:00,False

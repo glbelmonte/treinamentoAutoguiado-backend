@@ -1,0 +1,52 @@
+ID,MODULE_ITEM_ORDER,TEXT,TYPE,MODULE_ID,MODULE_PHASE
+1,1,Fase 1: Prestar Atenção com Curiosidade,1,1,1
+2,2,Vamos começar!,2,1,1
+3,3,Como você está se sentindo?,3,1,1
+4,4,https://youtu.be/pp1Xxajw708,4,1,1
+5,5,O que você faz quando está sob estresse? O que você faz te afasta da pessoa que você quer ser?,5,1,1
+6,6,Exercício de Prestar Atenção com Curiosidade,7,1,1
+7,7,"Maioria das pessoas quando estão sob estresse ficam mais distraídas por se perder em pensamentos e preocupações. Por isto iremos treinar a habilidade de prestar atenção. Vamos praticar! Escolha um objeto para fazer o exercício, pode ser uma caneta ou algo que esteja perto de você agora. E reserve 6 minutos para fazer este exercício.",6,1,1
+8,8,audio101,8,1,1
+9,9,não;parcialmente;sim,9,1,1
+10,10,O que você achou deste exercício?,11,1,1
+11,11,O que você achou mais interessante ou diferente no exercício?,5,1,1
+12,12,"Neste exercício você prestou bastante atenção num objeto, o que pode ser diferente do dia a dia em que somos distraídos por pensamentos.",7,1,1
+13,13,Como sua vida seria se você prestasse total atenção às pessoas e atividades que são importantes para você? Assim como prestou atenção no exercício.,5,1,1
+14,14,"Prestar Atenção com Curiosidade significa prestar total atenção ao que está acontecendo bem na sua frente, sem julgá-lo como bom ou ruim.
+Atividades que você pode treinar prestar atenção com curiosidade:
+- comer
+- lavar louça
+- tomar banho
+- andar
+- fazer uma atividade física
+",7,1,1
+15,15,Escolha uma ou duas tarefas diárias que você poderia fazer enquanto presta atenção com curiosidade? ,5,1,1
+16,16,"Na próxima semana, escolha uma pessoa que você poderia prestar atenção com curiosidade, mostrando interesse e abertura genuínos? Isso significa prestar total atenção ao que esta pessoa está dizendo ou fazendo, sem assumir que você já sabe o que ela vai dizer ou fazer.",5,1,1
+17,17,Continuar,12,1,1
+18,18,Fase 2: Fortes Emoções ,1,1,2
+19,19,audio102,8,1,2
+20,20,O que você tende a fazer quando se perde em emoções fortes?,5,1,2
+21,21,"O estresse vem com pensamentos e sentimentos difíceis. E às vezes esses pensamentos e sentimentos são tão intensos que criam Fortes Emoções. E quando nos enganchamos nessas emoções, nosso comportamento muda.",7,1,2
+22,22,"Então, o que podemos fazer quando fortes emoções aparecem? Como podemos nos desenganchar? Vamos aprender sobre isso!",6,1,2
+23,23,audio103,8,1,2
+24,24,Vamos praticar!,6,1,2
+25,25,https://youtu.be/9CGDbP-mmU4,4,1,2
+26,26,não;parcialmente;sim,9,1,2
+27,27,O que você achou deste exercício?,11,1,2
+28,28,O que você tende a fazer quando se perde em emoções fortes?,5,1,2
+29,29,Como o Pôr os pés no chão pode ser útil em sua vida?,5,1,2
+30,30,"Estes exercícios podem ser um pouco estranhos. Mas a prática ajuda a conseguir utilizá-los quando estiver passando por uma emoção forte.
+Vamos treinar uma versão mais longa do exercício de Pôr os pés no chão!",6,1,2
+31,31,https://youtu.be/2kG2LaAVZ_c,4,1,2
+32,32,não;parcialmente;sim,9,1,2
+33,33,O que você achou deste exercício?,11,1,2
+34,34,Continuar,12,1,2
+35,35,Fase 3: Resumo e prática para a semana,1,1,3
+36,36,"Lembre-se, Pôr os pés no chão tem três etapas principais: o        Passo 1: Observe como você está se sentindo e o que está pensando agora. o        Passo 2: Desacelere e conecte-se com seu corpo empurrando os pés no chão, alongando-se e concentrando-se na respiração. o        Passo 3: Reconcentre-se no mundo ao seu redor, o que você pode ver, ouvir, tocar, saborear e cheirar. •        A prática é muito importante, porque se você praticar, será mais fácil usar o Pôr os pés no chão depois, durante situações estressantes. •        Pôr os pés no chão é especialmente útil durante situações estressantes ou de fortes emoções.",7,1,3
+37,37,"Na próxima semana, quando, onde e quantas vezes por dia você praticará Pôr os pés no chão?",5,1,3
+38,38,audio104,8,1,3
+39,39,Como você está se sentindo?,3,1,3
+40,40,"Muito bem! Você acaba de praticar habilidades importantes para te ajudar a lidar com estresse e outros desafios em sua vida. Lembre-se de praticar os exercícios. Quanto mais você treinar, melhor ficará!
+Até mais!
+",7,1,3
+41,41,Completar,12,1,3

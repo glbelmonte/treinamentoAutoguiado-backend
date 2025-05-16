@@ -1,0 +1,62 @@
+version: "3.9"
+name: treinamento-autoguiado
+services:
+  api:
+    image: 'docker-spring-boot-postgres:latest'
+    build:
+      context: .
+    container_name: api
+    restart: always
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/${POSTGRES_DB}
+      - SPRING_DATASOURCE_USERNAME=${POSTGRES_USER}
+      - SPRING_DATASOURCE_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "8080:8080"
+    networks:
+      - api_network
+  db:
+    image: postgres:11
+    container_name: db
+    restart: always
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - treinamento_autoguiado_data:/var/lib/postgresql/data
+    networks:
+      - api_network
+  db-init:
+    image: postgres:11
+    container_name: db-init
+    depends_on:
+      - db
+      - api
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - ./db/init-db.sh:/scripts/init-db.sh:ro
+      - ./db/users.csv:/users.csv:ro
+      - ./db/modules.csv:/modules.csv:ro
+      - ./db/module_items.csv:/module_items.csv:ro
+      - ./db/user_progresses.csv:/user_progresses.csv:ro
+    entrypoint: ["sh", "/scripts/init-db.sh"]
+    networks:
+      - api_network
+volumes:
+  treinamento_autoguiado_data:
+networks:
+  api_network:
+    driver: bridge
